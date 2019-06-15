@@ -1,0 +1,131 @@
+/*================================================*/
+/*                    BRONNEN:                    */
+/*================================================*/
+
+/*Achtergrond afbeelding
+https://www.vexels.com/download-vector/125831/cartoon-clouds-background*/
+
+
+/*FLAT COLOURS KLEUREN PALET */
+/*https://flatuicolors.com/palette/defo*/
+
+/*
+#1abc9c = Turqouise
+#16a085 = Green sea
+
+#2ecc71 = Emerald
+#27ae60 = Nephritis
+
+#3498db = Peter river
+#2980b9 = Belize hole
+
+#9b59b6 = Amethyst
+#8e44ad = Wisteria
+
+#34495e = Wet asphalt
+#2c3e50 = Midnight blue
+
+#f1c40f = Sun flower
+#f39c12 = Orange
+
+#e74c3c = Carrot
+#d35400 = Pumpkin
+
+#e74c3c = Alizarin river
+#c0392b = Pomegranate
+
+#ecf0f1 = Clouds
+#bdc3c7 = Silver
+
+#95a5a6 = Concrete
+#7f8c8d = Asbestos
+*/
+
+
+
+/*================================================*/
+/*                ALGEMENE STYLING:               */
+/*================================================*/
+
+
+body {
+    background-image: url(../afbeeldingen/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+h1 {
+    color: #2980b9;
+    font-family: 'Gaegu', cursive;
+    font-size: 3em;
+    -webkit-text-stroke-color: #3498db;
+    -webkit-text-stroke-width: 2px;
+}
+
+
+
+/*================================================*/
+/*                 BUTTON STYLING:                */
+/*================================================*/
+
+
+/*START BUTTON*/
+button#start-button-3D {
+    background: #f1c40f;
+    border-color: #f1c40f;
+    border-radius: 1em;
+    box-shadow: 0px 6px 0px #f39c12;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    width: 7em;
+ }
+
+button#start-button-3D:hover {
+    background-color: #1abc9c;
+    border: none;
+    box-shadow: 0px 6px 0px #16a085;
+ }
+
+button#start-button-3D.remove,
+.remove {
+    display: none;
+}
+
+
+
+/*RESTART BUTTON*/
+button#reset-button-3D {
+    background: #e74c3c;
+    border-color: #e74c3c;
+    border-radius: 1em;
+    box-shadow: 0px 6px 0px #c0392b;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    width: 7em;
+ }
+
+button#reset-button-3D:hover {
+    background-color: #34495e;
+    border: none;
+    box-shadow: 0px 6px #2c3e50;
+    color: #fff;
+ }
+
